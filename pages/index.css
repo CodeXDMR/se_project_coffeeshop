@@ -156,6 +156,10 @@
   justify-content: center;
 }
 
+.recipes__iframe {
+  border: none;
+}
+
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
@@ -165,7 +169,8 @@
   line-height: 30px;
   color: #ffffff;
 }
-.recipe-info__video-caption {
+
+.recipe__video-caption {
   margin: 0;
   margin-top: 24px;
 }
