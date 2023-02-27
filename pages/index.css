@@ -160,7 +160,7 @@
   border: none;
 }
 
-.recipes__video-caption {
+.recipes__video-captions {
   display: flex;
   justify-content: space-between;
   font-style: normal;
@@ -170,7 +170,7 @@
   color: #ffffff;
 }
 
-.recipe__video-caption {
+.recipes__video-caption {
   margin: 0;
   margin-top: 24px;
 }
