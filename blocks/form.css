@@ -1,7 +1,6 @@
 .form {
   display: flex;
   flex-direction: column;
-  position: relative;
   padding: 0;
 }
 
@@ -61,16 +60,7 @@
   transition: opacity 1s ease-in 0s;
 }
 
-.form__fieldset-checkbox {
-  margin: 0;
-  padding: 0;
-  margin-top: 32px;
-  border: none;
-  display: flex;
-  justify-content: center;
-}
-
-.form__label_checkbox {
+.form__label_checkbox_terms {
   margin-top: 32px;
   display: flex;
   justify-content: center;
