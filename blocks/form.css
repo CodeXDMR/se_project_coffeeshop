@@ -1,12 +1,13 @@
 .form {
-  max-width: 385px;
   display: flex;
   flex-direction: column;
+  position: relative;
   padding: 0;
 }
 
 .form__fieldset {
   border: none;
+  margin: 0;
   padding: 0;
 }
 
@@ -60,13 +61,6 @@
   transition: opacity 1s ease-in 0s;
 }
 
-.form__checkbox[type="checkbox"] {
-  border-radius: 2px;
-  width: 20px;
-  height: 20px;
-  vertical-align: middle;
-}
-
 .form__fieldset-checkbox {
   margin: 0;
   padding: 0;
@@ -76,6 +70,15 @@
   justify-content: center;
 }
 
-.form__label-checkbox {
-  margin-left: 12px;
+.form__label_checkbox {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.form__checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
 }

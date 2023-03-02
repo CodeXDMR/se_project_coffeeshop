@@ -1,4 +1,5 @@
 .menu {
+  padding: 100px 0 100px 0;
   color: #000000;
   background-color: #ffffff;
   background-image: url("../images/background_menu.svg");
@@ -8,7 +9,7 @@
 }
 
 .menu__title {
-  margin: 100px auto 0;
+  margin: 0 auto;
   max-width: 780px;
   text-align: center;
   font-style: normal;
@@ -29,7 +30,7 @@
 }
 
 .menu__cards {
-  margin: 100px auto 100px;
+  margin: 100px 0 0;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
