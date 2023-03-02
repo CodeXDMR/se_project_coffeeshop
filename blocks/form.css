@@ -60,7 +60,7 @@
   transition: opacity 1s ease-in 0s;
 }
 
-.form__label_checkbox_terms {
+.form__label_type_checkbox {
   margin-top: 32px;
   display: flex;
   justify-content: center;
